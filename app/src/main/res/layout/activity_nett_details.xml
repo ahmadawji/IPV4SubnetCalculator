@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NettDetails"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Network Class:"
+        android:textSize="23dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tvNetClass"
+        android:layout_width="314dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/back"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Host Range:"
+        android:textSize="23dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tvHostRange"
+        android:layout_width="314dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/back"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Broadcast Address:"
+        android:textSize="23dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tvBroadAddress"
+        android:layout_width="314dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/back"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Wildcard Mask:"
+        android:textSize="23dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tvWildMask"
+        android:layout_width="314dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/back"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="CIDR Notation:"
+        android:textSize="23dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCNotation"
+        android:layout_width="314dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/back"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="17dp"
+        />
+
+</LinearLayout>

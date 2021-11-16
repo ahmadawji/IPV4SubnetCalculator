@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IPV4SubnetCal">
         <activity
+            android:name=".GeneralInfo"
+            android:exported="true" />
+        <activity
             android:name=".NettDetails"
             android:exported="true" />
         <activity

@@ -24,7 +24,11 @@
         <item>28</item>
         <item>29</item>
         <item>30</item>
-        <item>31</item>
-        <item>32</item>
     </string-array>
+
+    <string name="reasons">
+        <li>Reduces overall network traffic and improves network performance.</li>\n
+        <li>Enables an administrator to implement security policies such as which subnets are allowed or not allowed to communicate together.
+        </li>
+    </string>
 </resources>

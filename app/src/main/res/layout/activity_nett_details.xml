@@ -24,8 +24,8 @@
         android:background="@drawable/back"
         android:text=""
         android:textAlignment="center"
-        android:textSize="17dp"
-        />
+        android:textColor="#4CAF50"
+        android:textSize="25dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,7 +44,7 @@
         android:background="@drawable/back"
         android:text=""
         android:textAlignment="center"
-        android:textSize="17dp"
+        android:textSize="23dp"
         />
 
     <TextView
@@ -64,7 +64,7 @@
         android:background="@drawable/back"
         android:text=""
         android:textAlignment="center"
-        android:textSize="17dp"
+        android:textSize="23dp"
         />
 
     <TextView
@@ -84,7 +84,7 @@
         android:background="@drawable/back"
         android:text=""
         android:textAlignment="center"
-        android:textSize="17dp"
+        android:textSize="23dp"
         />
 
     <TextView
@@ -104,7 +104,7 @@
         android:background="@drawable/back"
         android:text=""
         android:textAlignment="center"
-        android:textSize="17dp"
+        android:textSize="23dp"
         />
 
 </LinearLayout>

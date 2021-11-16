@@ -140,4 +140,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    public void goToGenInf(View view) {
+        Intent gI= new Intent(this, GeneralInfo.class);
+        startActivity(gI);
+    }
 }

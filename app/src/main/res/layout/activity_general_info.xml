@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeneralInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="What is subnetting?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subnetting is the process of dividing a network into two or more networks. It's like chopping a pizza into smaller pieces for making it easier to eat, therefore subnetting breaks the network for making it easier to manage."
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Reasons for subnetting:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvReasons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/ipv1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Rule used to calculate number of subnets:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ipv2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Rule used to calculate number of hosts/subnet:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ipv3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Rule used to calculate subnet mask:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ipv4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="What is a classless network?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Classless network is a network that has been already been subnetted example 172.16.0.0/22 is a classless network because its originally 172.16.0.0/16.\n\nExample: Given the network 172.16.0.0/22 to subnet a topology which we want to create in it 9 subnets.
+2^4>=9   => 16>=9\nWe borrow 4 bits from the host part and the network will be like this
+172.16.0.0/26.\nThen the magic number will be 64"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="CIDR Notation:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Classless Inter-Domain Routing, is a compact method for specifying IP addresses and their routing suffixes. For example, we can express the idea that the IP address 192.168. 0.1 is associated with the netmask 255.255. 255.0 by using the CIDR notation of 192.168.0.0"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Wildcard Mask:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A wildcard mask is a mask of bits that indicates which parts of an IP address are available for examination.\nIn Access Control Lists (ACL) they are used to identify (or filter) an individual host, a network, or a range IP addresses in a network to permit or deny access ."
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ipv5" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -9,4 +9,7 @@ Information like:
 3. Wildcard mask of each subnet 
 4. The CIDR notation for the network 
 
-![caption](link to image / GIF)
+## For more info about the app and the code, click on image below to watch the Youtube video.
+
+[![IPV4 Subnet Calculator Youtube Video ](https://user-images.githubusercontent.com/76648133/143097523-a034402f-f457-4209-b877-6aeb9b557ee6.PNG)](https://www.youtube.com/watch?v=gW69_0Xow4U)
+
